@@ -1,2 +1,10 @@
 requirements.txt  
 requirements-dev.txt  
+node_modules
+.venv
+FIT_OUT
+GPX_OUT
+TCX_OUT
+activities
+run_page/data.db
+imported.json
