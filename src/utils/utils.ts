@@ -234,6 +234,11 @@ const titleForRun = (run: Activity): string => {
     }
   }
   // 3. use time+length if location or type is not available
+  const activitySport = getActivitySport(run);
+  if (run.type !== 'Run' && activitySport) {
+    return activitySport;
+  }
+
   const runDistance = run.distance / 1000;
   const runHour = +run.start_date_local.slice(11, 13);
   if (runDistance > 20 && runDistance < 40) {
