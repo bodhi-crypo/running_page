@@ -29,7 +29,6 @@ route.svg
 .vercel
 .vercel_python_packages/
 imported.json
-run_page/data.db
 FIT_OUT/*
 !FIT_OUT/.gitkeep
 GPX_OUT/*
